@@ -128,13 +128,10 @@ const TaskAllocation = () => {
             >
               <option value="">Select Domain</option>
               <option value="SWPAFE">Frontend Developer</option>
-              <option value="SWPABE">Backend Developer</option>
               <option value="SWPAAM">AI / ML</option>
-              <option value="SWPADS">Data Science</option>
               <option value="SWPACS">Cybersecurity</option>
               <option value="SWPAUI">UI/UX Design</option>
-              <option value="SWPADB">Database Management</option>
-              <option value="SWPARJ">React JS</option>
+              <option value="SWPAGA">Gen-AI</option>
             </select>
           </div>
           <div className="alloc-group">

@@ -96,7 +96,7 @@ const AddStudent = () => {
         <div>
           <label>Password:</label>
           <input
-            type="password"
+            type="text"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
@@ -132,13 +132,14 @@ const AddStudent = () => {
             >
               <option value="">Select Domain</option>
               <option value="SWPAFE">Frontend Developer</option>
-              <option value="SWPABE">Backend Developer</option>
+              {/* <option value="SWPABE">Backend Developer</option> */}
               <option value="SWPAAM">AI / ML</option>
-              <option value="SWPADS">Data Science</option>
+              {/* <option value="SWPADS">Data Science</option> */}
               <option value="SWPACS">Cybersecurity</option>
               <option value="SWPAUI">UI/UX Design</option>
-              <option value="SWPADB">Database Management</option>
-              <option value="SWPARJ">React JS</option>
+              <option value="SWPAGA">Gen-AI</option>
+              {/* <option value="SWPADB">Database Management</option> */}
+              {/* <option value="SWPARJ">React JS</option> */}
             </select>
           </div>
 
